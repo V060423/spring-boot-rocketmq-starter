@@ -1,0 +1,66 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "name": "spring.rocketmq",
+      "type": "com.springboot.rocketmq.starter.config.RocketMqProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "name": "spring.rocketmq.name-server",
+      "description": "name server  名称服务器，保存broker的元数据",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "defaultValue": 0,
+      "name": "spring.rocketmq.producer-compress-msg-body-over-how-much",
+      "description": "Compress message body threshold, namely, message body larger than 4k will be compressed on default.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "name": "spring.rocketmq.producer-group-name",
+      "description": "name of producer 生产组名称",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "defaultValue": 0,
+      "name": "spring.rocketmq.producer-max-message-size",
+      "description": "Maximum allowed message size in bytes.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "defaultValue": false,
+      "name": "spring.rocketmq.producer-retry-another-broker-when-not-store-ok",
+      "description": "Indicate whether to retry another broker on sending failure internally.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "defaultValue": 2,
+      "name": "spring.rocketmq.producer-retry-times-when-send-async-failed",
+      "description": "<p> Maximum number of retry to perform internally before claiming sending failure in asynchronous mode. <\/p>\n This may potentially cause message duplication which is up to application developers to resolve.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "defaultValue": 2,
+      "name": "spring.rocketmq.producer-retry-times-when-send-failed",
+      "description": "<p> Maximum number of retry to perform internally before claiming sending failure in synchronous mode. <\/p>\n This may potentially cause message duplication which is up to application developers to resolve.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.springboot.rocketmq.starter.config.RocketMqProperties",
+      "defaultValue": 3000,
+      "name": "spring.rocketmq.producer-send-msg-timeout",
+      "description": "millis of send message timeout 生产者发送消息超时时间(毫秒)",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

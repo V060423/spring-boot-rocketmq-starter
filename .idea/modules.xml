@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-rocketmq.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rocketmq-starter/spring-boot-rocketmq-starter.iml" filepath="$PROJECT_DIR$/spring-boot-rocketmq-starter/spring-boot-rocketmq-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-rocketmq-starter-demo/spring-boot-rocketmq-starter-demo.iml" filepath="$PROJECT_DIR$/spring-boot-rocketmq-starter-demo/spring-boot-rocketmq-starter-demo.iml" />
+    </modules>
+  </component>
+</project>
